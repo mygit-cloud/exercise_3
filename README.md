@@ -63,9 +63,8 @@ commands in `create_tables.sql`
 1. Modify `leave_comment.php` to enable users to leave comments on posts.
     - We'll get a `post_id` as a query param. Fetch the post and any existing
       comments from the database in a single query (you'll have to use a `JOIN`).
-      That will give us:
-          - Its slug to use in  our link
-          - The post body and comments to preview
+      That will give us its slug to use in  our link and the post body and
+      comments to preview
     - We'll let any users post comments without authentication. It's become clear
       that's a bad idea on the real internet, but it's fine for this exercise.
     - When a user posts a new comment, add a new row to the `comments` table,
