@@ -36,14 +36,15 @@ SQLite replacing MySQL, and your laptop's OS replacing Linux.
 </details>
 
 From there:
-1. Configure your database to have tables for posts and comments by running the
-commands in `create_tables.sql`
+1. You can connect to the SQLite3 database in `db/weblog.sqlite3`. It has
+  already been set up to have tables for posts and comments by running the
+  commands in `create_tables.sql`.
 1. Modify `weblog.php` to fetch posts and their associated comments from the
     database and display them to visitors.
     - Use no more than two queries to get the existing posts and their comments
       (it's possible to do this in one query).
     - Display posts in reverse chronological order. That is, with the newest
-(highest id) posts at the top. Display Comments in chronological order from
+      (highest id) posts at the top. Display Comments in chronological order from
       lowest id to highest.
     - Put the `id` and `slug` of posts in the appropriate HTML attributes to enable
       linking to individual posts on the page and to comment pages for each post.
@@ -55,8 +56,10 @@ commands in `create_tables.sql`
     - Be sure to add a secret password in the PHP code, and only add a row if the
       password the user entered matches!
     - Create a `slug` by converting the post title to lowercase and replacing any
-      spaces or special characters with underscores. We'll use this slug to let us
-      link to individual posts later.
+      spaces or special characters with underscores. We'll use this slug to as
+      the `id` attribute to our posts and include it as a
+      [URL Fragment](https://en.wikipedia.org/wiki/URI_fragment) in our links to
+      let us deep link to a specific post.
     - Because we're accepting content from users, be sure to
       [sanitize your inputs](https://xkcd.com/327/) using prepared statements to
   do the inserts rather than creating queries with string concatenation.
