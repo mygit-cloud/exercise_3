@@ -4,6 +4,8 @@
 
 **DUE: Friday, February 4 by 5:30pm**
 
+GitHub invite link: https://classroom.github.com/a/dygjId3q
+
 ### Instructions
 
 One very common kind database-driven web application is a Content Management
