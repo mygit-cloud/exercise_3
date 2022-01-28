@@ -1,3 +1,7 @@
+<?php
+  $db = new PDO('sqlite:db/weblog.sqlite3');
+ ?>
+
 <html>
 <head>
   <title>Exercise 3 - A Web Journal</title>
