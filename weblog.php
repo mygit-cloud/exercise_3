@@ -18,7 +18,7 @@
   <h1>&lt;yourname&gt;'s Web Journal</h1>
 
   <div id="posts">
-    <div class="post" id="1">
+    <post class="post" id="2">
       <h2 class=post-title id="a_post_title">
         A Post Title
         <a href="#a_post_title">
@@ -46,31 +46,64 @@ towards the ocean with me.
 
       <h3>2 Comments</h3>
       <div class="comment-block">
-        <div class="comment">
+        <comment>
           <div class="comment-body">
             Yeah Izzy!
           </div>
           <div class="comment-author">
             Sydney Carton
           </div>
-        </div>
-        <div class="comment">
+        </comment>
+        <comment>
           <div class="comment-body">
             off to a great start!
           </div>
           <div class="comment-author">
             nick_carraway
           </div>
-        </div>
+        </comment>
 
         <a href="leave_comment.php?post_id=1">
           <i class="material-icons">create</i>
           Leave a comment
         </a>
       </div>
-    </div> <!-- end of post -->
+    </post>
 
-    <div class="post" id="0">
+    <post>
+      <h2 class=post-title id="this_is_just_to_say">
+        This Is Just To Say
+        <a href="#this_is_just_to_say">
+          <i class="material-icons">link</i>
+        </a>
+      </h2>
+      <div class="post-body">
+        I have eaten
+        the plums
+        that were in
+        the icebox
+
+        and which
+        you were probably
+        saving
+        for breakfast
+
+        Forgive me
+        they were delicious
+        so sweet
+        and so cold
+      </div>
+
+      <h3>0 Comments</h3>
+      <div class="comment-block">
+        <a href="leave_comment.php?post_id=0">
+          <i class="material-icons">create</i>
+          Leave a comment
+        </a>
+      </div>
+    </post>
+
+    <post class="post" id="0">
       <h2 class=post-title id="first_post">
         First Post
         <a href="#first_post">
@@ -88,7 +121,7 @@ towards the ocean with me.
           Leave a comment
         </a>
       </div>
-    </div> <!-- end of post -->
+    </post>
 
   </div> <!-- end of posts block -->
 </body>
