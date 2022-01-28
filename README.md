@@ -1,4 +1,4 @@
-# Exercise #3
+# Exercise 3: A Weblog
 
 5 points
 
