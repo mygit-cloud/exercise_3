@@ -18,7 +18,7 @@
   <h1>&lt;yourname&gt;'s Web Journal</h1>
 
   <div id="posts">
-    <post class="post" id="2">
+    <post class="post" id="3">
       <h2 class=post-title id="a_post_title">
         A Post Title
         <a href="#a_post_title">
@@ -70,7 +70,7 @@ towards the ocean with me.
       </div>
     </post>
 
-    <post>
+    <post id="2">
       <h2 class=post-title id="this_is_just_to_say">
         This Is Just To Say
         <a href="#this_is_just_to_say">
@@ -78,20 +78,20 @@ towards the ocean with me.
         </a>
       </h2>
       <div class="post-body">
-        I have eaten
-        the plums
-        that were in
-        the icebox
+I have eaten
+the plums
+that were in
+the icebox
 
-        and which
-        you were probably
-        saving
-        for breakfast
+and which
+you were probably
+saving
+for breakfast
 
-        Forgive me
-        they were delicious
-        so sweet
-        and so cold
+Forgive me
+they were delicious
+so sweet
+and so cold
       </div>
 
       <h3>0 Comments</h3>
@@ -103,7 +103,40 @@ towards the ocean with me.
       </div>
     </post>
 
-    <post class="post" id="0">
+    <post id="1">
+      <h2 class=post-title id="sonnet_2">
+        Sonnet 2
+        <a href="#sonnet_2">
+          <i class="material-icons">link</i>
+        </a>
+      </h2>
+      <div class="post-body">
+When forty winters shall besiege thy brow
+And dig deep trenches in thy beauty’s field,
+Thy youth’s proud livery, so gazed on now,
+Will be a tattered weed, of small worth held.
+Then being asked where all thy beauty lies—
+Where all the treasure of thy lusty days—
+To say within thine own deep-sunken eyes
+Were an all-eating shame and thriftless praise.
+How much more praise deserved thy beauty’s use
+If thou couldst answer "This fair child of mine
+Shall sum my count and make my old excuse",
+Proving his beauty by succession thine.
+    This were to be new made when thou art old,
+    And see thy blood warm when thou feel’st it cold.
+      </div>
+
+      <h3>0 Comments</h3>
+      <div class="comment-block">
+        <a href="leave_comment.php?post_id=0">
+          <i class="material-icons">create</i>
+          Leave a comment
+        </a>
+      </div>
+    </post>
+
+    <post id="0">
       <h2 class=post-title id="first_post">
         First Post
         <a href="#first_post">
@@ -111,7 +144,7 @@ towards the ocean with me.
         </a>
       </h2>
       <div class="post-body">
-        Hello World!
+Hello World!
       </div>
 
       <h3>0 Comments</h3>
