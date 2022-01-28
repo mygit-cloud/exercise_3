@@ -21,13 +21,15 @@ to enable users to create new posts and leave new comments.
 First you'll need your own working version of our modified LAMP stack, with
 SQLite replacing MySQL, and your laptop's OS replacing Linux.
 <details>
-  <summary>### Mac Instructions</summary>
+  <summary><he>Mac Instructions</h3></summary>
+
   - Install PHP: https://www.php.net/manual/en/install.macosx.packages.php)
   - Apache and SQLite are already installed
 </details>
 
 <details>
-  <summary>### Windows Instructions</summary>
+  <summary><h3>Windows Instructions</h3></summary>
+
   - Install WAMP: https://bitnami.com/stack/wamp/installer
   - Download SQLite: https://www.sqlite.org/download.html
 </details>
